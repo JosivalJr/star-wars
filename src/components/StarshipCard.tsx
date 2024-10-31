@@ -27,7 +27,7 @@ export default function StarshipCard({ cardInfos, toggleModal }: Props) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
       <div
-        className="relative bg-cover bg-center py-6 px-8 rounded-xl shadow-lg w-4/5 h-3/5 max-w-5xl font-kodemono text-white"
+        className="relative bg-cover bg-center py-6 px-8 rounded-xl shadow-lg w-4/5 md:min-h-[60%] max-w-5xl font-kodemono text-white"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <img
