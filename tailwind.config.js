@@ -14,7 +14,7 @@ export default {
         movie: "url('/src/assets/images/movie_bg.jpg')",
       },
       fontFamily: {
-        starjedi: ["StarJedi", "sans-serif"],
+        starjedi: ["Sf Distant Galaxy", "sans-serif"],
         kodemono: ["Kode Mono", "sans-serif"],
       },
       fontSize: {

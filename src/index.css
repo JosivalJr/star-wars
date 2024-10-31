@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
-@font-face {
-  font-family: "StarJedi";
-  src: local("StarJedi"), url("assets/fonts/StarJedi.ttf") format("ttf");
-}
+@import url("https://fonts.cdnfonts.com/css/sf-distant-galaxy");
 
 @tailwind base;
 @tailwind components;
@@ -33,4 +30,23 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.modal-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.modal-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s, transform 0.3s;
 }
